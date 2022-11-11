@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson -1</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- botsraph css -->
+    <link rel="stylesheet" href="./styles/botsraph.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="header-nav">
+                <div class="header-logo">
+                    <img src="./images/bokshelt_img.svg" alt="bokshelt_img">
+                </div>
+                <ul class="nav__list">
+                    <form class="form" action="">
+                        <input class="form-input" type="text" placeholder="Search books">
+                    </form>
+                    <div class="day">
+                        <div class="dark">
+                            <box-icon class="sunny" name='sun' animation='tada' color='#f7e007' ></box-icon>
+                            <box-icon class="moony" name='moon' ></box-icon>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="https://google.com">
+                            <button class="header-btn">logout</button>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 p-3 bg-dark m-2">
+                            <form action="#">
+                                <label for="filmname" class="w-75 my-2 fs-5" >
+                                   <strong style="color: white;"> Enter film name</strong>
+                                    <input type="text" class="form-control p-3  my-2 inn" placeholder="Enter film name" id="filmname">
+                                </label>
+                                <label for="filmrating" class="w-75 my-2 fs-5  " >
+                                    <strong style="color: white;"> Enter film rating</strong>
+                                    <input id="filmRating" type="number" min="1" max="10" class="form-control my-2 p-3" placeholder="Enter film rating" id="filmrating">
+                                </label>
+                                <select  id="catagory" class="form-select w-75 p-3 my-4">
+                                        <option value="all" selected disabled>Select film catagory</option>
+                                </select>
+                                <button style="color: white;" type="submit" id="submitForm" class="btn w-75 bg-success mt-3">
+                                    Search
+                                </button>
+                            </form>
+                            <div style="margin-left: 55px; margin-top: 30px; width: 190px;" class= "card card-res bg-white p-4">
+                                <strong id="res"></strong> ta malumot topildi
+                             </div>
+                        </div>
+                        <div class="col-md-7 p-3  m-2" >
+                            <div class="wrapperr">
+                                
+                            </div>
+                        </div>
+                        <div class="col p-3 bg-dark m-2">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./scripts/db.js"></script>
+<script src="./scripts/utils.js"></script>
+<script src="./main.js"></script>
+</html>

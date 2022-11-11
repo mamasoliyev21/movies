@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+.container{
+    max-width: 1440px !important;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    padding: 20px;
+    background:  #E5E5E5;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    padding-left: 56px;
+}
+.form-input{
+    width: 670px;
+    height: 56px;
+    background: #F8FAFD;
+    box-shadow: 0px 0px 3px rgba(1, 1, 1, 0.4);
+    border-radius: 30px;
+}
+.day{
+    width: 50px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 180px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.dark{
+    width: 34px;
+    height: 34px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.active{
+    right: 0;
+}
+.moony{
+    display: none;
+}
+.header-btn{
+    width: 99px;
+    height: 40px;
+    left: 1120px;
+    top: 16px;
+    background: #0D75FF;
+    border-radius: 4px;
+}
+.box{
+    width: 350px;
+}
+.wrapperr{
+    /* display: grid; */
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(Auto-fill,minmax(320px , 1fr)); */
+    justify-content: space-around;
+    
+}
+.btns{
+    display: flex;
+}
+.error{
+    color: red;
+    font-size: 40px;
+    border: 2px solid black;
+    background-color:darkcyan;
+    text-align: center;
+    padding: 50px 80px;
+}
+.shadow{
+    
+    background-color:cadetblue;
+}
+.social{
+    margin: 0px 3px;
+}
+.item{
+    margin: 10px 0;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.list-unstyled{
+    width: 100%;
+    /* background-color:rgb(0, 255, 68); */
+    background-color:rgb(0, 121, 98);
+    justify-content: space-between;
+}
