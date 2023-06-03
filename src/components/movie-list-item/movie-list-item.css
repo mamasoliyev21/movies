@@ -1,0 +1,54 @@
+.list-group-item{
+    padding: 15px 20px ;
+    border-bottom: 1px solid #3d5a80;
+}
+.list-group-item:last-child{
+    border-bottom: none;
+}
+.list-group-item input{
+    line-height: 35px ;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.list-group-item span{
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    width: 550px;
+}
+.list-group-item button{
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.list-group-item .btn-star{
+    color: darkblue;
+}
+.list-group-item .btn-cookie{
+    color: rgb(243, 192, 97);
+}
+.list-group-item.like .btn-cookie{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(243, 192, 97);
+     transition: 0.3s all;
+     transform: translateX(30px); 
+    
+}
+.heard-icon{
+    color: red;
+    font-size: 20px;
+}
+.list-group-item.favorite .list-group-item-label,
+.list-group-item.favorite .list-group-item-input{
+    color: #f3ff4a;
+}
+.list-group-item.favorite.btn-star{
+    color: #f3ff4a;
+}
